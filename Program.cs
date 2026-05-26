@@ -8,7 +8,7 @@ class Program
         => throw new NotImplementedException("Add: см. ветку feature/add");
 
     static double Subtract(double a, double b)
-        => throw new NotImplementedException("Subtract: см. ветку feature/subtract");
+        => a - b;
 
     static double Multiply(double a, double b)
         => throw new NotImplementedException("Multiply: см. ветку feature/multiply");

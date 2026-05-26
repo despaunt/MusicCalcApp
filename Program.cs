@@ -5,7 +5,7 @@ class Program
     // ── Арифметические операции (будут реализованы в отдельных ветках) ───────
 
     static double Add(double a, double b)
-        => throw new NotImplementedException("Add: см. ветку feature/add");
+        => a + b;
 
     static double Subtract(double a, double b)
         => throw new NotImplementedException("Subtract: см. ветку feature/subtract");

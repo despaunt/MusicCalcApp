@@ -11,7 +11,7 @@ class Program
         => a - b;
 
     static double Multiply(double a, double b)
-        => throw new NotImplementedException("Multiply: см. ветку feature/multiply");
+        => a * b;
 
     static double Divide(double a, double b)
         => throw new NotImplementedException("Divide: см. ветку feature/divide");

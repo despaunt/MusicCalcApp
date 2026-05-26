@@ -14,7 +14,7 @@ class Program
         => a * b;
 
     static double Divide(double a, double b)
-        => throw new NotImplementedException("Divide: см. ветку feature/divide");
+        => b != 0 ? a / b : throw new DivideByZeroException("Деление на ноль!");
 
     // ── Меню ─────────────────────────────────────────────────────────────────
 
